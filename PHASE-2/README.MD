@@ -18,27 +18,27 @@ This repository contains **Phase-2 of the SQL Project**, showcasing **advanced S
 
 ### SQL Query Languages
 
-* **DDL (Data Definition Language)**: CREATE, ALTER, DROP, TRUNCATE, RENAME
-* **DML (Data Manipulation Language)**: INSERT, UPDATE, DELETE
-* **DQL (Data Query Language)**: SELECT, DISTINCT, JOINs, GROUP BY, aggregate functions
+DDL (Data Definition Language)**: CREATE, ALTER, DROP, TRUNCATE, RENAME
+DML (Data Manipulation Language)**: INSERT, UPDATE, DELETE
+DQL (Data Query Language)**: SELECT, DISTINCT, JOINs, GROUP BY, aggregate functions
 
 ### Operators & Clauses
 
-* **Arithmetic**: `+`, `-`, `*`, `/`
-* **Comparison**: `=`, `!=`, `<`, `>`, `<=`, `>=`
-* **Logical**: `AND`, `OR`, `NOT`
-* **Special**: `IN`, `BETWEEN`, `LIKE`, `IS NULL`
-* **Clauses**: WHERE, ORDER BY, GROUP BY, HAVING, LIMIT
+Arithmetic: `+`, `-`, `*`, `/`
+Comparison: `=`, `!=`, `<`, `>`, `<=`, `>=`
+Logical: `AND`, `OR`, `NOT`
+Special: `IN`, `BETWEEN`, `LIKE`, `IS NULL`
+Clauses: WHERE, ORDER BY, GROUP BY, HAVING, LIMIT
 
 ### Aliases
 
-* **Column Alias**: `SELECT salary*12 AS AnnualSalary`
-* **Table Alias**: `SELECT c.customer_name, o.order_date FROM Customers c JOIN Orders o`
+Column Alias: `SELECT salary*12 AS AnnualSalary`
+Table Alias: `SELECT c.customer_name, o.order_date FROM Customers c JOIN Orders o`
 
 ### Cascading Rules
 
-* **ON DELETE CASCADE**: Deleting a parent deletes dependent records
-* **ON UPDATE CASCADE**: Updating a parent key updates child records
+ON DELETE CASCADE: Deleting a parent deletes dependent records
+ON UPDATE CASCADE: Updating a parent key updates child records
 
 ## Highlights
 
