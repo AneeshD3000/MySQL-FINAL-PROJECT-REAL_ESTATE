@@ -27,23 +27,23 @@ Logical: `AND`, `OR`, `NOT`
 Special: `IN`, `BETWEEN`, `LIKE`, `IS NULL`
 Clauses: WHERE, ORDER BY, GROUP BY, HAVING, LIMIT
 
-### Aliases
+ Aliases
 
 Column Alias: `SELECT salary*12 AS AnnualSalary`
 Table Alias: `SELECT c.customer_name, o.order_date FROM Customers c JOIN Orders o`
 
-### Cascading Rules
+ Cascading Rules
 
 ON DELETE CASCADE: Deleting a parent deletes dependent records
 ON UPDATE CASCADE: Updating a parent key updates child records
 
-## Highlights
+ Highlights
 
-* DML queries for existing tables
-* Queries demonstrating operators, clauses, and aliases
-* 20+ cascading queries showing referential integrity
+ DML queries for existing tables
+ Queries demonstrating operators, clauses, and aliases
+ 20+ cascading queries showing referential integrity
 
-## Usage
+ Usage
 
 1. Open your MySQL client or Workbench.
 2. Load the `Phase-2.sql` file.
