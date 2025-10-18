@@ -21,7 +21,7 @@ DQL (Data Query Language)**: SELECT, DISTINCT, JOINs, GROUP BY, aggregate functi
 
  Operators & Clauses
 
-Arithmetic: `+`, `-`, `*`, `/`
+Arithmetic: `+`, `-`, `/`
 Comparison: `=`, `!=`, `<`, `>`, `<=`, `>=`
 Logical: `AND`, `OR`, `NOT`
 Special: `IN`, `BETWEEN`, `LIKE`, `IS NULL`
