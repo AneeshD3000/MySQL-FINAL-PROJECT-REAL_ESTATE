@@ -2,27 +2,24 @@
 
 # Phase-2: SQL Query Mastery
 
-## Overview
 
-This repository contains **Phase-2 of the SQL Project**, showcasing **advanced SQL skills** on a realistic property management database. The phase demonstrates mastery in **creating, manipulating, querying, and controlling database records** using professional query-writing standards.
+Tables Covered
 
-## Tables Covered
+Users, Properties, Agents, Customers
+Property Images, Amenities, Property Features, Transactions, Appointments
+Property Reviews, Payments, Invoices, Loans, Installments, Commission
+Maintenance Requests, Tenancies, Property Documents, Feedback, Contracts
+Inspection, Utilities, Offers, Ratings, Property Insurance
 
-* Users, Properties, Agents, Customers
-* Property Images, Amenities, Property Features, Transactions, Appointments
-* Property Reviews, Payments, Invoices, Loans, Installments, Commission
-* Maintenance Requests, Tenancies, Property Documents, Feedback, Contracts
-* Inspection, Utilities, Offers, Ratings, Property Insurance
+Key Features
 
-## Key Features
-
-### SQL Query Languages
+SQL Query Languages
 
 DDL (Data Definition Language)**: CREATE, ALTER, DROP, TRUNCATE, RENAME
 DML (Data Manipulation Language)**: INSERT, UPDATE, DELETE
 DQL (Data Query Language)**: SELECT, DISTINCT, JOINs, GROUP BY, aggregate functions
 
-### Operators & Clauses
+ Operators & Clauses
 
 Arithmetic: `+`, `-`, `*`, `/`
 Comparison: `=`, `!=`, `<`, `>`, `<=`, `>=`
