@@ -1,55 +1,24 @@
----
+ Phase 2
 
-# Phase-2: SQL Query Mastery
+description: >
+  This repository demonstrates SQL query mastery including DDL, DML, DQL, operators, clauses, aliases, and cascading rules. The file contains a variety of queries on existing tables and newly created tables.
 
+highlights:
+  - Demonstrates Data Definition Language (DDL) operations such as creating new tables, altering table structure, and setting constraints.
+  - Includes Data Manipulation Language (DML) queries like inserting, updating, and deleting records from existing tables.
+  - Showcases Data Query Language (DQL) operations such as SELECT statements, DISTINCT queries, aggregation functions, and joins.
+  - Uses SQL operators including arithmetic, comparison, logical, and special operators like IN, BETWEEN, LIKE, and IS NULL.
+  - Implements clauses like WHERE, ORDER BY, GROUP BY, HAVING, and LIMIT to filter and organize data.
+  - Applies column and table aliases to make queries more readable.
+  - Demonstrates cascading rules with ON DELETE CASCADE and ON UPDATE CASCADE for foreign key constraints.
+  - Covers queries on existing tables: users, properties, agents, customers, property images, amenities, property features, transactions, appointments, property review, payments, invoices, loans, installment, commission, maintenance requests, tenancies, property documents, feedback, contracts, inspection, utilities, offers, ratings, and property insurance.
+  - Includes queries using multiple operators, clauses, and aliases for practice and demonstration purposes.
+  
+usage:
+  - Clone the repository to your local machine.
+  - Open the SQL file in any MySQL client or editor.
+  - Execute queries sequentially or selectively to observe results.
+  - Modify queries to explore additional use cases or test cascading rules.
 
-Tables Covered
-
-Users, Properties, Agents, Customers
-Property Images, Amenities, Property Features, Transactions, Appointments
-Property Reviews, Payments, Invoices, Loans, Installments, Commission
-Maintenance Requests, Tenancies, Property Documents, Feedback, Contracts
-Inspection, Utilities, Offers, Ratings, Property Insurance
-
-Key Features
-
-SQL Query Languages
-
-DDL (Data Definition Language)**: CREATE, ALTER, DROP, TRUNCATE, RENAME
-DML (Data Manipulation Language)**: INSERT, UPDATE, DELETE
-DQL (Data Query Language)**: SELECT, DISTINCT, JOINs, GROUP BY, aggregate functions
-
- Operators & Clauses
-
-Arithmetic: `+`, `-`, `/`
-Comparison: `=`, `!=`, `<`, `>`, `<=`, `>=`
-Logical: `AND`, `OR`, `NOT`
-Special: `IN`, `BETWEEN`, `LIKE`, `IS NULL`
-Clauses: WHERE, ORDER BY, GROUP BY, HAVING, LIMIT
-
- Aliases
-
-Column Alias: `SELECT salary*12 AS AnnualSalary`
-Table Alias: `SELECT c.customer_name, o.order_date FROM Customers c JOIN Orders o`
-
- Cascading Rules
-
-ON DELETE CASCADE: Deleting a parent deletes dependent records
-ON UPDATE CASCADE: Updating a parent key updates child records
-
- Highlights
-
- DML queries for existing tables
- Queries demonstrating operators, clauses, and aliases
- 20+ cascading queries showing referential integrity
-
- Usage
-
-1. Open your MySQL client or Workbench.
-2. Load the `Phase-2.sql` file.
-3. Execute queries sequentially to explore DDL, DML, DQL, operators, aliases, and cascading effects.
-4. Observe the results and referential integrity across tables.
-
----
-
-
+notes: >
+  This Phase-2 file focuses on applying comprehensive SQL knowledge in a practical database scenario. All queries are tested in MySQL, and cascading, aliases, and operator usage are highlighted for learning and demonstration purposes.
