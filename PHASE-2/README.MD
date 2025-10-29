@@ -1,24 +1,65 @@
- Phase 2
+# 🧠 SQL Query Mastery – Phase 2 Project
 
-description: >
-  This repository demonstrates SQL query mastery including DDL, DML, DQL, operators, clauses, aliases, and cascading rules. The file contains a variety of queries on existing tables and newly created tables.
+> **This repository demonstrates SQL query mastery**, including DDL, DML, DQL, operators, clauses, aliases, and cascading rules.  
+> It contains a rich variety of queries executed on both existing and newly created database tables to showcase advanced SQL proficiency.
 
-highlights:
-  - Demonstrates Data Definition Language (DDL) operations such as creating new tables, altering table structure, and setting constraints.
-  - Includes Data Manipulation Language (DML) queries like inserting, updating, and deleting records from existing tables.
-  - Showcases Data Query Language (DQL) operations such as SELECT statements, DISTINCT queries, aggregation functions, and joins.
-  - Uses SQL operators including arithmetic, comparison, logical, and special operators like IN, BETWEEN, LIKE, and IS NULL.
-  - Implements clauses like WHERE, ORDER BY, GROUP BY, HAVING, and LIMIT to filter and organize data.
-  - Applies column and table aliases to make queries more readable.
-  - Demonstrates cascading rules with ON DELETE CASCADE and ON UPDATE CASCADE for foreign key constraints.
-  - Covers queries on existing tables: users, properties, agents, customers, property images, amenities, property features, transactions, appointments, property review, payments, invoices, loans, installment, commission, maintenance requests, tenancies, property documents, feedback, contracts, inspection, utilities, offers, ratings, and property insurance.
-  - Includes queries using multiple operators, clauses, and aliases for practice and demonstration purposes.
-  
-usage:
-  - Clone the repository to your local machine.
-  - Open the SQL file in any MySQL client or editor.
-  - Execute queries sequentially or selectively to observe results.
-  - Modify queries to explore additional use cases or test cascading rules.
+---
 
-notes: >
-  This Phase-2 file focuses on applying comprehensive SQL knowledge in a practical database scenario. All queries are tested in MySQL, and cascading, aliases, and operator usage are highlighted for learning and demonstration purposes.
+## 🌟 Highlights
+
+### ⚙️ **Data Definition Language (DDL)**
+- 🏗️ Create and alter tables with defined **data types**, **constraints**, and **relationships**.  
+- 🔑 Apply **PRIMARY KEY**, **FOREIGN KEY**, **UNIQUE**, **CHECK**, and **DEFAULT** constraints.  
+- 🔄 Use **ON DELETE CASCADE** and **ON UPDATE CASCADE** for referential integrity.
+
+### ✍️ **Data Manipulation Language (DML)**
+- 📥 **INSERT** records with realistic values across interconnected tables.  
+- ✏️ **UPDATE** existing records using conditions and logical operators.  
+- 🗑️ **DELETE** records safely while maintaining foreign key dependencies.
+
+### 🔍 **Data Query Language (DQL)**
+- 🧾 Execute **SELECT** queries with filters, aggregates, and subqueries.  
+- 🔢 Use **DISTINCT**, **GROUP BY**, **HAVING**, and **ORDER BY** to organize and analyze data.  
+- 🔗 Implement various **JOINs** (INNER, LEFT, RIGHT, FULL, SELF, CROSS) for relationship-based querying.
+
+### 🧮 **Operators Demonstrated**
+- ➕ **Arithmetic:** `+`, `-`, `*`, `/`, `%`  
+- ⚖️ **Comparison:** `=`, `!=`, `<`, `>`, `<=`, `>=`  
+- 🧠 **Logical:** `AND`, `OR`, `NOT`  
+- 🎯 **Special:** `IN`, `BETWEEN`, `LIKE`, `IS NULL`, `EXISTS`
+
+### 🧱 **Clauses Implemented**
+- 🎯 **WHERE** – filters data precisely  
+- 🪜 **ORDER BY** – sorts results ascending/descending  
+- 📊 **GROUP BY** – aggregates similar data  
+- 🧩 **HAVING** – filters groups post-aggregation  
+- ⏱️ **LIMIT** – controls query output size
+
+### ✨ **Alias Usage**
+- 🎭 Applied **column and table aliases** for improved readability and concise query structure.
+
+### 🔗 **Cascading Rules**
+- 🔄 Demonstrated **ON DELETE CASCADE** and **ON UPDATE CASCADE**  
+  ensuring data consistency across related tables.
+
+---
+
+## 🧩 Tables Covered
+
+This file includes queries on both **existing** and **newly created** tables to simulate real-world database management.  
+The existing dataset includes:
+
+| Category | Tables |
+|-----------|---------|
+| 🧑‍💼 User Management | `users`, `agents`, `customers` |
+| 🏠 Property Data | `properties`, `property_images`, `property_features`, `amenities` |
+| 💸 Financials | `transactions`, `payments`, `invoices`, `commission`, `loans`, `installment` |
+| 📅 Operations | `appointments`, `tenancies`, `maintenance_requests`, `contracts`, `inspection` |
+| 💬 Reviews & Feedback | `property_review`, `feedback`, `ratings`, `offers` |
+| 📑 Documentation | `property_documents`, `utilities`, `property_insurance` |
+
+> 🧱 Each table contains properly defined **relationships**, **keys**, and **constraints** for accurate query execution.
+
+---
+
+
